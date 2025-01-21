@@ -9,7 +9,7 @@ app.use(Cors());
 app.use(Express.json());//it also read incoming data as javascript object
 
 // Mongoose.connect('mongodb://localhost:27017/SMsystem');
-Mongoose.connect("mongodb+srv://System:students11@cluster0.k90oz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+Mongoose.connect("mongodb+srv://System:students11@cluster0.k90oz.mongodb.net/SMsystem?retryWrites=true&w=majority&appName=Cluster0")
 
 //create schema
 const StudentSchema=new Mongoose.Schema({
