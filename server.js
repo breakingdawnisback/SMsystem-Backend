@@ -9,7 +9,6 @@ app.use(Express.urlencoded());
 app.use(Cors());
 app.use(Express.json());
 
-
 const dbUsername = 'System'; 
 const dbPassword = 'STUDENTS11'; 
 const uri = `mongodb+srv://${dbUsername}:${dbPassword}@cluster0.k90oz.mongodb.net/SMsystem?retryWrites=true&w=majority&appName=Cluster0`;
